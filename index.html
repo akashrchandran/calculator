@@ -1,56 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Nox Calculator</title>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nox Calculator | Home</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/math.png"" type="image/x-icon">
+  </head>
+  <body>
 
-	<link rel="shortcut icon" href="https://img.icons8.com/color/48/000000/math.png"" type="image/x-icon">
-	<link rel="stylesheet" href="style.css">
-</head>
+    <section>
+      <header>
+        </div>
+        <h2><a href="#" class="logo">Nox</a></h2>
+      </header>
+      <div class="content">
+        <div class="info">
+          <h2>Simple <br><span>Yet Powerful!</span></h2>
+          <p>This general-purpose calculator app looks and works like electronic calculators that you use at home or in your workplace. Apart from basic calculations such as addition, subtraction, multiplication and division, you can do so much more with this calculator.</p>
+          <a href="calculator/" class="info-btn">Try now</a>
+          <a href="about/" style="margin: 20px;" class="about-btn">About</a>
+        </div>
+      </div>
+      <div class="media-icons">
+        <a href="https://github.com/akashrchandran" target="_blank"><i class="fab fa-github" style="color: white;"></i></a>
+        <a href="https://twitter.com/akas_h" target="_blank"><i class="fab fa-twitter" style="color: white;"></i></a>
+        <a href="https://www.linkedin.com/in/akashrchandran/" target="_blank"><i class="fab fa-linkedin" style="color: white;"></i></a>
+      </div>
+    </section>
 
-<body>
-	<div class="container">
-		<div class="calculator">
-			<div class="input-area">
-				<div id="topDisplay-container">
-					<div id="topDisplay"></div>
-				</div>
-				<input type="text" id="display" readonly value="0">
-			</div>
-			<div class="button-container">
-				<div class="button-area">
-					<span class="button" id="ac">AC</span>
-					<span class="button" id="del">DEL</span>
-					<span class="button operator" data-button-symbol="%">%</span>
-					<span class="button operator" data-button-symbol="/">÷</span>
-					<span class="button numberButton input-button">7</span>
-					<span class="button numberButton input-button">8</span>
-					<span class="button numberButton input-button">9</span>
-					<span class="button operator" data-button-symbol="*">x</span>
-					<span class="button numberButton input-button">4</span>
-					<span class="button numberButton input-button">5</span>
-					<span class="button numberButton input-button">6</span>
-					<span class="button operator" data-button-symbol="-">-</span>
-					<span class="button numberButton input-button">1</span>
-					<span class="button numberButton input-button">2</span>
-					<span class="button numberButton input-button">3</span>
-					<span class="button operator" data-button-symbol="+">+</span>
-					<span class="button numberButton input-button">0</span>
-					<span id="dot" class="button">.</span>
-					<span class="button-pair">
-						<span class="button bracketButton paired-button">(</span>
-						<span class="button bracketButton paired-button">)</span>
-					</span>
-					<span class="button" id="equalBut">=</span>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- link with js files -->
-	<script src="https://unpkg.com/mathjs/lib/browser/math.js"></script>
-	<script src="script.js"></script>
-</body>
-
+  </body>
 </html>
